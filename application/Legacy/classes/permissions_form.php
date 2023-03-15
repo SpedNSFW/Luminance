@@ -61,6 +61,7 @@ $PermissionsArray = [
     'site_search_many'                   => 'Can see more than 100 torrents in search results.',
     'site_give_specialgift'              => 'Can give a special gift.',
     'site_play_slots'                    => 'Can play the slot machine.',
+    'site_play_blackjack'                => 'Can play blackjack.',
     'site_set_language'                  => 'Can set own user language(s) in settings',
     'site_torrent_signature'             => 'Can set and use a torrent signature',
     'site_collages_manage'               => 'Can manage any collage.',

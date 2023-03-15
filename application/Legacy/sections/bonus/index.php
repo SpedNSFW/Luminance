@@ -37,6 +37,9 @@ if (!isset($_REQUEST['action'])) {
         case 'takecredits':
             include(SERVER_ROOT.'/Legacy/sections/bonus/takecredits.php');
             break;
+        case 'blackjack':
+            include(SERVER_ROOT.'/Legacy/sections/bonus/Blackjack/controller.php');
+            break;
         default:
             include(SERVER_ROOT.'/Legacy/sections/bonus/bonus.php');
             break;

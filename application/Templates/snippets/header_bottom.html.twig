@@ -76,6 +76,9 @@
 {% if check_perms('site_play_slots') %}
                 <li id="nav_slots" class="normal"><a href="/bonus.php?action=slot">{{ get_icon('nav_icons', 'nav_slots')|raw }}Slot Machine</a></li>
 {% endif %}
+{% if check_perms('site_play_blackjack') %}
+                <li id="nav_slots" class="normal"><a href="/bonus.php?action=blackjack">{{ get_icon('nav_icons', 'nav_blackjack')|raw }}Blackjack</a></li>
+{% endif %}
             <li id="nav_useredit" class="normal"><a href="/user.php?action=edit&amp;userid={{ ActiveUser.ID }}" title="Edit User Settings">{{ get_icon('nav_icons', 'nav_useredit')|raw }}Settings</a></li>
             <li id="nav_usersecure" class="normal"><a href="/users/{{ ActiveUser.ID }}/security" title="Security Settings">{{ get_icon('nav_icons', 'nav_security')|raw }}Security</a></li>
             <li id="nav_logout" class="normal">
